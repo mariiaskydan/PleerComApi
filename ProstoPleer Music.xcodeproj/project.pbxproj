@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0012EA9E1C7C8C0A00F85EDE /* PlayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0012EA9C1C7C8C0A00F85EDE /* PlayTableViewCell.m */; };
+		0012EA9F1C7C8C0A00F85EDE /* PlayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0012EA9D1C7C8C0A00F85EDE /* PlayTableViewCell.xib */; };
+		0012EAA31C7C9F0500F85EDE /* playOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 0012EAA01C7C9F0500F85EDE /* playOn.png */; };
+		0012EAA41C7C9F0500F85EDE /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 0012EAA11C7C9F0500F85EDE /* pause.png */; };
+		0012EAA51C7C9F0500F85EDE /* playOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 0012EAA21C7C9F0500F85EDE /* playOff.png */; };
+		001B27701C79EA96001B8123 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001B276F1C79EA96001B8123 /* AVFoundation.framework */; };
+		001B27731C79F44C001B8123 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 001B27721C79F44C001B8123 /* AudioToolbox.framework */; };
+		004F51C91C762F830064BE8C /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = 004F51C81C762F830064BE8C /* AFNetworking */; };
+		004F51CC1C7671DA0064BE8C /* TableAndSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 004F51CB1C7671DA0064BE8C /* TableAndSearchVC.m */; };
 		00C31C591C74DED100FE243E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C31C581C74DED100FE243E /* main.m */; };
 		00C31C5C1C74DED100FE243E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C31C5B1C74DED100FE243E /* AppDelegate.m */; };
 		00C31C5F1C74DED100FE243E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C31C5E1C74DED100FE243E /* ViewController.m */; };
@@ -15,6 +24,7 @@
 		00C31C671C74DED200FE243E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C31C651C74DED200FE243E /* LaunchScreen.storyboard */; };
 		00C31C721C74DED200FE243E /* ProstoPleer_MusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C31C711C74DED200FE243E /* ProstoPleer_MusicTests.m */; };
 		00C31C7D1C74DED200FE243E /* ProstoPleer_MusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C31C7C1C74DED200FE243E /* ProstoPleer_MusicUITests.m */; };
+		D8A546DD75F4A6D598DC9719 /* libPods-ProstoPleer Music.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B18C2C1400AD946D95400C59 /* libPods-ProstoPleer Music.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0012EA9B1C7C8C0A00F85EDE /* PlayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayTableViewCell.h; sourceTree = "<group>"; };
+		0012EA9C1C7C8C0A00F85EDE /* PlayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayTableViewCell.m; sourceTree = "<group>"; };
+		0012EA9D1C7C8C0A00F85EDE /* PlayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayTableViewCell.xib; sourceTree = "<group>"; };
+		0012EAA01C7C9F0500F85EDE /* playOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playOn.png; path = "ProstoPleer Music/playOn.png"; sourceTree = "<group>"; };
+		0012EAA11C7C9F0500F85EDE /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = "ProstoPleer Music/pause.png"; sourceTree = "<group>"; };
+		0012EAA21C7C9F0500F85EDE /* playOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = playOff.png; path = "ProstoPleer Music/playOff.png"; sourceTree = "<group>"; };
+		001B276F1C79EA96001B8123 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		001B27711C79F44B001B8123 /* ProstoPleer Music.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "ProstoPleer Music.entitlements"; sourceTree = "<group>"; };
+		001B27721C79F44C001B8123 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		004F51C81C762F830064BE8C /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; name = AFNetworking; path = Pods/AFNetworking; sourceTree = "<group>"; };
+		004F51CA1C7671DA0064BE8C /* TableAndSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableAndSearchVC.h; path = ../TableAndSearchVC.h; sourceTree = "<group>"; };
+		004F51CB1C7671DA0064BE8C /* TableAndSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableAndSearchVC.m; path = ../TableAndSearchVC.m; sourceTree = "<group>"; };
 		00C31C541C74DED100FE243E /* ProstoPleer Music.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ProstoPleer Music.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C31C581C74DED100FE243E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00C31C5A1C74DED100FE243E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +73,9 @@
 		00C31C781C74DED200FE243E /* ProstoPleer MusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ProstoPleer MusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C31C7C1C74DED200FE243E /* ProstoPleer_MusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProstoPleer_MusicUITests.m; sourceTree = "<group>"; };
 		00C31C7E1C74DED200FE243E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C9384626F1E98C2047C443 /* Pods-ProstoPleer Music.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProstoPleer Music.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProstoPleer Music/Pods-ProstoPleer Music.release.xcconfig"; sourceTree = "<group>"; };
+		B18C2C1400AD946D95400C59 /* libPods-ProstoPleer Music.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProstoPleer Music.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBDC48BCE5E24B296CB10591 /* Pods-ProstoPleer Music.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProstoPleer Music.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProstoPleer Music/Pods-ProstoPleer Music.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +83,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				001B27701C79EA96001B8123 /* AVFoundation.framework in Frameworks */,
+				D8A546DD75F4A6D598DC9719 /* libPods-ProstoPleer Music.a in Frameworks */,
+				001B27731C79F44C001B8123 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +109,15 @@
 		00C31C4B1C74DED100FE243E = {
 			isa = PBXGroup;
 			children = (
+				0012EAA01C7C9F0500F85EDE /* playOn.png */,
+				0012EAA11C7C9F0500F85EDE /* pause.png */,
+				0012EAA21C7C9F0500F85EDE /* playOff.png */,
 				00C31C561C74DED100FE243E /* ProstoPleer Music */,
 				00C31C701C74DED200FE243E /* ProstoPleer MusicTests */,
 				00C31C7B1C74DED200FE243E /* ProstoPleer MusicUITests */,
 				00C31C551C74DED100FE243E /* Products */,
+				BEC8BA54E01C5829688193EF /* Pods */,
+				7CE9689C888BA968081B3291 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +134,21 @@
 		00C31C561C74DED100FE243E /* ProstoPleer Music */ = {
 			isa = PBXGroup;
 			children = (
+				001B27711C79F44B001B8123 /* ProstoPleer Music.entitlements */,
 				00C31C5A1C74DED100FE243E /* AppDelegate.h */,
 				00C31C5B1C74DED100FE243E /* AppDelegate.m */,
 				00C31C5D1C74DED100FE243E /* ViewController.h */,
 				00C31C5E1C74DED100FE243E /* ViewController.m */,
+				004F51CA1C7671DA0064BE8C /* TableAndSearchVC.h */,
+				004F51CB1C7671DA0064BE8C /* TableAndSearchVC.m */,
 				00C31C601C74DED100FE243E /* Main.storyboard */,
 				00C31C631C74DED200FE243E /* Assets.xcassets */,
 				00C31C651C74DED200FE243E /* LaunchScreen.storyboard */,
 				00C31C681C74DED200FE243E /* Info.plist */,
 				00C31C571C74DED100FE243E /* Supporting Files */,
+				0012EA9B1C7C8C0A00F85EDE /* PlayTableViewCell.h */,
+				0012EA9C1C7C8C0A00F85EDE /* PlayTableViewCell.m */,
+				0012EA9D1C7C8C0A00F85EDE /* PlayTableViewCell.xib */,
 			);
 			path = "ProstoPleer Music";
 			sourceTree = "<group>";
@@ -140,6 +179,26 @@
 			path = "ProstoPleer MusicUITests";
 			sourceTree = "<group>";
 		};
+		7CE9689C888BA968081B3291 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				001B27721C79F44C001B8123 /* AudioToolbox.framework */,
+				001B276F1C79EA96001B8123 /* AVFoundation.framework */,
+				B18C2C1400AD946D95400C59 /* libPods-ProstoPleer Music.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEC8BA54E01C5829688193EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				004F51C81C762F830064BE8C /* AFNetworking */,
+				DBDC48BCE5E24B296CB10591 /* Pods-ProstoPleer Music.debug.xcconfig */,
+				39C9384626F1E98C2047C443 /* Pods-ProstoPleer Music.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00C31C811C74DED200FE243E /* Build configuration list for PBXNativeTarget "ProstoPleer Music" */;
 			buildPhases = (
+				431F55C9E23358613369506D /* Check Pods Manifest.lock */,
 				00C31C501C74DED100FE243E /* Sources */,
 				00C31C511C74DED100FE243E /* Frameworks */,
 				00C31C521C74DED100FE243E /* Resources */,
+				D10FC4AA39AA3DF80003DBC9 /* Embed Pods Frameworks */,
+				00D1D0C13CD43687DFE7FA69 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +269,15 @@
 				TargetAttributes = {
 					00C31C531C74DED100FE243E = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = C6LA89Z3JW;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 					00C31C6C1C74DED200FE243E = {
 						CreatedOnToolsVersion = 7.2;
@@ -245,7 +316,12 @@
 			files = (
 				00C31C671C74DED200FE243E /* LaunchScreen.storyboard in Resources */,
 				00C31C641C74DED200FE243E /* Assets.xcassets in Resources */,
+				0012EAA31C7C9F0500F85EDE /* playOn.png in Resources */,
+				0012EAA41C7C9F0500F85EDE /* pause.png in Resources */,
+				0012EA9F1C7C8C0A00F85EDE /* PlayTableViewCell.xib in Resources */,
 				00C31C621C74DED200FE243E /* Main.storyboard in Resources */,
+				004F51C91C762F830064BE8C /* AFNetworking in Resources */,
+				0012EAA51C7C9F0500F85EDE /* playOff.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +341,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00D1D0C13CD43687DFE7FA69 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProstoPleer Music/Pods-ProstoPleer Music-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431F55C9E23358613369506D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D10FC4AA39AA3DF80003DBC9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProstoPleer Music/Pods-ProstoPleer Music-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00C31C501C74DED100FE243E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				00C31C5F1C74DED100FE243E /* ViewController.m in Sources */,
+				0012EA9E1C7C8C0A00F85EDE /* PlayTableViewCell.m in Sources */,
 				00C31C5C1C74DED100FE243E /* AppDelegate.m in Sources */,
 				00C31C591C74DED100FE243E /* main.m in Sources */,
+				004F51CC1C7671DA0064BE8C /* TableAndSearchVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,23 +537,33 @@
 		};
 		00C31C821C74DED200FE243E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBDC48BCE5E24B296CB10591 /* Pods-ProstoPleer Music.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ProstoPleer Music/ProstoPleer Music.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ProstoPleer Music/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SimpleProject.Vlog.ProstoPleer-Music";
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleProject.ProstoPleer-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		00C31C831C74DED200FE243E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39C9384626F1E98C2047C443 /* Pods-ProstoPleer Music.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "ProstoPleer Music/ProstoPleer Music.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "ProstoPleer Music/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.SimpleProject.Vlog.ProstoPleer-Music";
+				PRODUCT_BUNDLE_IDENTIFIER = "SimpleProject.ProstoPleer-Music";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -498,6 +634,7 @@
 				00C31C831C74DED200FE243E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00C31C841C74DED200FE243E /* Build configuration list for PBXNativeTarget "ProstoPleer MusicTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +643,7 @@
 				00C31C861C74DED200FE243E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00C31C871C74DED200FE243E /* Build configuration list for PBXNativeTarget "ProstoPleer MusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +652,7 @@
 				00C31C891C74DED200FE243E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
